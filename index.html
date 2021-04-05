@@ -18,15 +18,37 @@
     <header>
         <nav class="navbar navbar-dark navbar-expand bg-dark text-light">
             <a class="navbar-brand" href="#">
-
-                <h4 class="ml-2"><i class="fas fa-question-circle fa-spin mr-2"></i>bad-trivia</h4>
+                <h4 class="ml-2"><i class="fas fa-question-circle fa-spin mr-2"></i>Bad Trivia</h4>
             </a>
         </nav>
     </header>
-    <main>
-        <div id="app"></div>
+    <main class="container-fluid px-md-5">
+        <div id="trivia" class="row justify-content-around my-2 px-md-5 mx-md-5">
+
+            <!-- QUESTION CARD TEMPLATE -->
+            <!-- <div class="col-4 card shadow text-center p-3">
+                <h3><u>QUESTION #</u></h3>
+                <h5> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsam nostrum libero
+                    voluptatibus consequatur dicta! Beatae illo autem repellendus consectetur. </h5>
+                <div class="row justify-content-center pt-2 pb-1 px-5">
+                    <div class="col-6">
+                        <button class="bg-success shadow rounded-lg pb-1"
+                            onclick="app.questionsController.answer(true)"><big><strong>
+                                    TRUE
+                                </strong></big></button>
+                    </div>
+                    <div class="col-6">
+                        <button class="bg-danger shadow rounded-lg pb-1"
+                            onclick="app.questionsController.answer(false)"><big><strong>
+                                    FALSE
+                                </strong></big></button>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
     </main>
-    <footer class="container-fluid bg-dark text-light">
+    <footer class="container-fluid bg-dark text-light mt-1">
         <div class="row text-center">
             <div class="col py-3">
                 <h4>Made with <i class="fas fa-question-circle fa-spin mr-2"></i> by Samwise</h4>
